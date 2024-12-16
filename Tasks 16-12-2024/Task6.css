@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    margin-bottom: 20px;
+    border: 2px dotted black;
+    width:fit-content;
+    padding: 0%;
+   
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 1px;
+    position: static;
+}
+.box.two {
+    background-color: green;
+}
+.relative .box.two {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.absolute .box.two {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}

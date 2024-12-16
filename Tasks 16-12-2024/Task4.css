@@ -1,0 +1,12 @@
+.DIV {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 100%;
+    
+   
+}
+.DIV img {
+    width: 100%;
+    height: 100%;
+}

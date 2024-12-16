@@ -1,0 +1,18 @@
+.DIV {
+    display: flex;
+    height: 100vh;
+}
+.part {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+}
+.first-part {
+    background-color: orange;
+}
+.second-part {
+    background-color: blue;
+}
