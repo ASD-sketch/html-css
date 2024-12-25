@@ -11,7 +11,41 @@
    
 </head>
     <header>
-        <ul class="nav justify-content-center back">
+
+
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img width="100px" height="100px" src="logo2.png"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav" style="margin-left: 400px;">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#h">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#a">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#p">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#s">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#co">Courses</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#c">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+        <!-- <ul class="nav justify-content-center back">
             <li class="nav-item" id="h">
               <a class="nav-link link" href="#h">Home</a>
             </li>
@@ -24,10 +58,13 @@
             <li class="nav-item">
                 <a class="nav-link link" href="#s">Skills</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link link" href="#co">Courses</a>
+              </li>
             <li class="nav-item">
               <a class="nav-link link" href="#c">Contact</a>
             </li>
-          </ul>
+          </ul> -->
     </header>
 
     <section class="hero">
@@ -51,8 +88,8 @@
     <section class="about-me">
         <div class="container">
             <div class="about-content">
-                <h2 style="text-decoration: underline; color:orange;">About Me</h2>
-                <p id="a">
+                <h2 style="text-decoration: underline; color:orange;" id="a">About Me</h2>
+                <p >
                     My name is Ahmad Bani Younis,
                     I am 23 years old and graduated with a degree in
                     Software Engineering from Jordan University of Science and Technology. 
@@ -74,11 +111,11 @@
 <br>
 
 <div style="background-color: white; border:2px solid white;background-color: #fff; box-shadow:0 6px 12px rgba(238, 235, 235, 0.2);border-radius: 10px;">
-<h1 style="text-decoration: underline; color:orange;" class="proj">Projects</h1>
+<h1 style="text-decoration: underline; color:orange;" class="proj" id="p">Projects</h1>
 <br>
-    <section class="cards-section" id="p">
+    <section class="cards-section" >
         <div class="card">  
-            <img src="projectFigma.png" alt="Card Image">
+            <img src="projImg.png" alt="Card Image">
             <div class="card-content">
                 <h3>Project Figma</h3>
                 <p>Prototype of an electronics website project.</p>
@@ -86,7 +123,7 @@
             </div>
         </div>
         <div class="card">
-            <img src="project-html-css.png" alt="Card Image">
+            <img src="projImg.png" alt="Card Image">
             <div class="card-content">
                 <h3>Project html-css</h3>
                 <p>responsive website using html and css</p>
@@ -94,10 +131,10 @@
             </div>
         </div>
         <div class="card">
-            <img src="https://via.placeholder.com/300" alt="Card Image">
+            <img src="projImg.png" alt="Card Image">
             <div class="card-content">
-                <h3>Card Title 3</h3>
-                <p>This is a description of the card. Add some relevant content here.</p>
+                <h3>portfolio</h3>
+                <p>Portfolio project.</p>
                 <a href="#" class="btn">Read More</a>
             </div>
         </div>
@@ -108,15 +145,45 @@
 <br>
 <br>
 <br>
+
+
+<div style="background-color: white; border:2px solid white;background-color: #fff; box-shadow:0 6px 12px rgba(238, 235, 235, 0.2);border-radius: 10px;">
+    <h1 style="text-decoration: underline; color:orange;" class="proj" id="co">Courses</h1>
+    <br>
+        <section class="cards-section" >
+            <div class="card">  
+                
+                <div class="card-content">
+                    <h3>Asp.net From Coderz</h3>
+                    <p>Course Asp.net from Coderz.</p>
+                    <a href="https://drive.google.com/file/d/1D2GD_3t_pPLMd6hfxxEntMYT1BMzE7nx/view?usp=drive_link" class="btn" target="_blank">Read More</a>
+                </div>
+            </div>
+            <div class="card">
+                
+                <div class="card-content">
+                    <h3>Asp.net From the Hope</h3>
+                    <p>course Asp.net from the hope international</p>
+                    <a href="https://drive.google.com/file/d/1LgHpOk4N1Gyscg-ecDftfN1P4uh0UVD8/view?usp=drive_link" class="btn" target="_blank">Read More</a>
+                </div>
+            </div>
+            
+        </section>
+    </div>
+
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 
 <div style="background-color: white; border:2px solid white;background-color: #fff; box-shadow:0 6px 12px rgba(238, 235, 235, 0.2);border-radius: 10px;">
-    <h1 style="text-decoration: underline; color:orange;" class="proj">Skills</h1>
+    <h1 style="text-decoration: underline; color:orange;" class="proj" id="s">Skills</h1>
     <section class="skills-section">
     <div class="containerSkills">
         <!-- Soft Skills -->
-        <div class="skills soft-skills" id="s">
+        <div class="skills soft-skills" >
             <h2>Soft Skills</h2>
             <ul>
                 <li>Communication skills</li>
@@ -159,11 +226,30 @@
      <textarea id="message" name="message" rows="5" required>
      </textarea> <button type="submit">Send</button> 
      </form> 
+<br>
      <div>
-
-
-       
-    
+        <div class="social-icons">
+            <a href="https://wa.me/962777785218" class="social" target="_blank" aria-label="WhatsApp" style="margin: 0 15px; font-size: 32px; color:black;">
+                <i class="bi bi-whatsapp"></i>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100090142107490&mibextid=ZbWKwL" class="social"  target="_blank" aria-label="Facebook" style="margin: 0 15px; font-size: 32px; color: black;">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a href="" target="_blank" aria-label="Instagram" class="social"  style="margin: 0 15px; font-size: 32px; color: black;">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/ahmad-bani-younes-61824324b/" class="social"  target="_blank" aria-label="LinkedIn" style="margin: 0 15px; font-size: 32px; color: black;">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://github.com/ASD-sketch" target="_blank" class="social"  aria-label="GitHub" style="margin: 0 15px; font-size: 32px; color: black;">
+                <i class="bi bi-github"></i>
+            </a>
+            <p style="color:black; margin: 10px 0;">
+                Phone: <a href="tel:+962777785218" style="text-decoration: none; color: black;">+962-7907390415</a> | 
+                 <a href="https://myaccount.google.com/?hl=ar&utm_source=OGB&utm_medium=act&gar=WzEyMF0&pli=1" style="text-decoration: none; color: black;">ahmadbaniyounes542@gmail.com</a>
+            </p>
+           
+        </div>
     </div>
 </div>
 
@@ -183,40 +269,16 @@
     
         <footer id="footer">
             <div class="footer-content">
-                <div class="social-icons">
-                    <a href="https://wa.me/962777785218" class="social" target="_blank" aria-label="WhatsApp" style="margin: 0 15px; font-size: 32px; color:white;">
-                        <i class="bi bi-whatsapp"></i>
-                    </a>
-                    <a href="https://www.facebook.com/profile.php?id=100090142107490&mibextid=ZbWKwL" class="social"  target="_blank" aria-label="Facebook" style="margin: 0 15px; font-size: 32px; color: white;">
-                        <i class="bi bi-facebook"></i>
-                    </a>
-                    <a href="" target="_blank" aria-label="Instagram" class="social"  style="margin: 0 15px; font-size: 32px; color: white;">
-                        <i class="bi bi-instagram"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/ahmad-bani-younes-61824324b/" class="social"  target="_blank" aria-label="LinkedIn" style="margin: 0 15px; font-size: 32px; color: white;">
-                        <i class="bi bi-linkedin"></i>
-                    </a>
-                    <a href="https://github.com/ASD-sketch" target="_blank" class="social"  aria-label="GitHub" style="margin: 0 15px; font-size: 32px; color: white;">
-                        <i class="bi bi-github"></i>
-                    </a>
-                    <p style="color:white; margin: 10px 0;">
-                        Phone: <a href="tel:+962777785218" style="text-decoration: none; color: white;">+962-7907390415</a> | 
-                         <a href="https://myaccount.google.com/?hl=ar&utm_source=OGB&utm_medium=act&gar=WzEyMF0&pli=1" style="text-decoration: none; color: white;">ahmadbaniyounes542@gmail.com</a>
-                    </p>
-                   
-                </div>
-
-                <div class="imgP">
-                    <img width="150px" height="150px" src="logo.png" alt="logo">
-                    <p>I am a full stack web developer using Asb.net framework.</p>
-                    <h2><p>&copy;2024 ABY</p></h2>
-                </div>
-                <div>
-                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3363.009728827796!2d35.849668799999996!3d32.5525856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151c7715f2c2e7ab%3A0x51755840c8ddbefd!2sOrange%20Digital%20Village%20Irbid!5e0!3m2!1sar!2sjo!4v1734725344484!5m2!1sar!2sjo" width="400px" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
             </div>
-
-            
+            <div>
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3363.009728827796!2d35.849668799999996!3d32.5525856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151c7715f2c2e7ab%3A0x51755840c8ddbefd!2sOrange%20Digital%20Village%20Irbid!5e0!3m2!1sar!2sjo!4v1734725344484!5m2!1sar!2sjo" width="700px" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <br>
+            <div class="imgP">
+                <img width="150px" height="150px" src="logo2.png" alt="logo">
+                <p>I am a full stack web developer using Asb.net framework.</p>
+                <h2><p>&copy;2024 ABY</p></h2>
+            </div>
         
         </footer>
     </section>

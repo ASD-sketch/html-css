@@ -125,7 +125,7 @@ body {
   }
   
   .shadow {
-    padding: 10px;
+    /* padding: 10px; */
     background-color: #fff;
   }
   
@@ -501,8 +501,9 @@ body {
 
 .imgSofa {
     
-    
-    margin-top: -40px;
+    z-index: 2;
+    position: relative;
+    margin-top: -60px;
     bottom: 150%;
     width: 400px;
     height: auto;

@@ -1,8 +1,4 @@
 
-
-
-
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -12,6 +8,17 @@
     padding: 1rem 2rem;
     width: 100%;;
     
+}
+.navbar-nav{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.nav-item li:hover{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orange;
+
 }
 
 .navbar .logo {
@@ -67,7 +74,7 @@
 
 .hero-content h2 {
     font-size: 25px;
-    background-color: orange;
+    background-color: black;
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 30px;
@@ -88,7 +95,7 @@
 }
 .hero-content p{
     font-size: 15px;
-    background-color: orange;
+    background-color: black;
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 30px;
@@ -131,6 +138,22 @@
     justify-content: space-between;
     color: white;
     font-size: 12px;
+    }
+
+    .hero-content{
+        margin-left: -20%;
+
+    }
+    #navbarNav{
+        position: relative;
+        left: -375px;
+        
+    
+    }
+
+    .nav-link{
+        width: 85px;
+
     }
 
 }
@@ -472,12 +495,13 @@
             color: orange;
             text-decoration:none;
         }
-        @media (max-width: 600px) {
+        @media (max-width: 426px) {
             .footer {
                 padding: 15px 0;
             }
             .footer .map {
-                display: none;
+                width:300px;
+                height:300px;
             }
             .social-links div {
                 flex-direction: column;
